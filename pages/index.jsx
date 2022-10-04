@@ -18,22 +18,6 @@ export default function Home() {
 
   const [weather, setWeather] = useState();
 
-  // const api = async () => {
-  //   const response = await fetch(
-  //     "https://countriesnow.space/api/v0.1/countries/capital/"
-  //   )
-  //     .then((response) => console.log(response.json()))
-  //     .then((response) => console.log(response));
-  //   // console.log(await response.json());
-  //   // setState(response.json());
-  //   console.log("response");
-  //   // return response.json();
-  // };
-  // console.log(state);
-  // useEffect(() => {
-  //   api();
-  // });
-  // const [hello, setHello] = useState(0);
 
   useEffect(() => {
     fetch(
